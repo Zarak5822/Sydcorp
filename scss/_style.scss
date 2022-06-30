@@ -1,0 +1,616 @@
+@function imgUrl($file, $path: "background"){
+@return url("../images/" + $path + "/" + $file) no-repeat;
+}
+
+
+header {
+
+    .header-top-bar-2 {
+        background-color: $primary;
+        font-weight: 800;
+        font-family: $font-inter;
+        font-size: 1.25rem;
+        color: $white;
+        line-height: 1.2;
+        text-transform: capitalize;
+        padding-top: 27px;
+        padding-bottom: 26px;
+
+    }
+
+    .same-day-sevice {
+        padding-right: 27px;
+        padding-left: 55px;
+    }
+
+    .quality-guarantee {
+        padding-left: 27px;
+        padding-right: 26px;
+    }
+
+    .for-fornt-price {
+        padding-left: 26px;
+    }
+
+    .banner {
+        background-image: linear-gradient(0deg, rgba(10, 9, 9, 0), rgb(0, 0, 0)), url(../images/lib/banner.png);
+        background-size: cover;
+        background-origin: content-box;
+        background-repeat: no-repeat;
+
+        .banner-heroheading {
+            font-weight: 800;
+            font-family: $font-inter;
+            font-size: 5rem;
+            color: $white;
+            padding-top: 150px;
+        }
+
+        .banner-subheading {
+            font-size: 2.7rem;
+            font-weight: 800;
+            color: white;
+            font-family: "Coolvetica";
+            padding-top: 31px;
+            padding-bottom: 80px;
+        }
+
+        .banner-subheading-2 {
+            font-size: 2.1rem;
+            font-weight: 500;
+            line-height: 1.6;
+            color: $primary;
+        }
+
+        span.safety-inspection-border {
+            font-weight: 900;
+            border-bottom: 3px solid;
+        }
+
+        .banner-subheading-3 {
+            font-family: $font-roboto;
+            font-weight: 400;
+            font-size: 1.4rem;
+            line-height: 0.6;
+            color: $white;
+            padding-top: 28px;
+            padding-bottom: 65px;
+        }
+    }
+
+    .more-info {
+        font-family: $font-inter;
+        line-height: 1;
+        font-size: 24px;
+        font-weight: 900;
+        padding-top: 34px;
+        color: $white;
+        padding-bottom: 48px;
+
+    }
+
+    .faq-btn {
+        text-transform: uppercase;
+        background: #000;
+        margin-top: 20px;
+        margin-left: 25px;
+        font-size: 18px;
+        color: $white;
+        padding: 16px 65px;
+        transform: skewX(-16deg);
+        font-weight: 700;
+
+    }
+
+    .service-btn {
+        text-transform: uppercase;
+        background: #000;
+        margin-top: 20px;
+        margin-left: 11px;
+        color: $white;
+        padding: 16px 65px;
+        transform: skewX(-16deg);
+        font-weight: 700;
+
+    }
+
+    .booking-btn {
+        text-transform: uppercase;
+        background: $primary;
+        margin-top: 20px;
+        margin-left: 11px;
+        color: $white;
+        padding: 16px 65px;
+        transform: skewX(-16deg);
+        font-weight: 700;
+    }
+
+    .quality-material-btn {
+        background: gray;
+        padding-top: 11px;
+        padding-bottom: 12px;
+        padding-left: 33px;
+        padding-right: 30px;
+        margin-top: 24px;
+        margin-left: 86px;
+        color: $white;
+        font-size: 18px;
+        display: inline-flex;
+    }
+}
+
+section.services {
+    padding-top: 136px;
+    color: $white;
+    padding-bottom: 82px;
+    border-bottom: 3px solid $primary;
+
+    .services-heroHeading {
+        padding-bottom: 50px;
+    }
+    .empty {
+        padding-bottom: 25px;
+    }
+}
+
+section.level-2-elect-services {
+    padding-top: 78px;
+    padding-bottom: 86px;
+    background-color: $white;
+
+    .electrical-service {
+        .Herotitle {
+            font-weight: 800;
+            font-family: $font-inter;
+            font-size: 2.25rem;
+            line-height: 1;
+            font-style: italic;
+            text-align: initial;
+        }
+
+        .electrical-service-description {
+            text-align: initial;
+            font-size: 16px;
+            font-family: $font-inter;
+            color: gray;
+            line-height: 1.6;
+            padding-top: 40px;
+        }
+        .tick {
+            text-align: end;
+        }
+        
+        
+    }
+}
+section.cta-1{
+    padding-top: 132px;
+    padding-bottom: 50px;
+    .cta-wrapper{
+        background: linear-gradient(0deg, #41A90A 75.52%, #5DD020 100%);
+        .levels-heroheading{
+
+            font-weight: 800;
+            font-size: 3.7rem;
+            line-height: 1;
+            color: $white;
+            padding-top: 48px;
+            padding-bottom: 136px;
+
+        }
+        .levels-subheading {
+            color: $white;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            text-align: justify;
+            padding-right: 71px;
+        }
+        
+    }
+}
+
+section.cta-2{
+    padding-top: 33px;
+    .cta-wrapper{
+
+        background: linear-gradient(180deg, #36363C 0%, #1E1E23 27.08%);
+        
+        .levels-heroheading{
+            font-weight: 700;
+            color: $white;font-size: 4.25rem;
+            line-height: 1;
+
+            
+
+        }
+        .horizantal-divider {
+            background: linear-gradient(89.99deg, rgba(65, 169, 10, 0) 0%, #41A90A 48.96%, rgba(65, 169, 10, 0) 100%);
+            height: 2px;
+            margin-top: 28px;
+        }
+        .electrician-plan-list {
+            color: white;
+            padding-top: 25px;
+            font-weight: 600;
+            font-size: 1.62rem;
+            line-height:1.6 ;
+
+        }
+        .electrician-plan-subheading{
+            font-weight: 400;
+            color: #818493;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+    }
+   
+}
+section.faq {
+    padding: 64px 0;
+    
+    @include media-breakpoint-up(lg) {
+        padding: 112px 0;
+    }
+
+    button:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .accordion-card {
+        margin: 35px 0;
+    }
+
+    .accordion-container {
+        width: 100%;
+    }
+
+    .accordion-head {
+        background-color: $white;
+        color: $dark;
+        cursor: pointer;
+        font-weight: 600;
+        text-transform: capitalize;
+        padding: 1rem;
+        transition: 0.2s all;
+        font-size: 1.125rem;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+
+        @include media-breakpoint-up(xl) {
+            font-size: 1.5rem; // 24px
+            padding: 32px 23px;
+        }
+
+        &.active {
+            background-color: $secondary;
+            color: $white;
+        }
+
+        .main-question {
+            @include media-breakpoint-down(sm) {
+                max-width: 95%;
+            }
+        }
+    }
+
+    .accordion-body {
+        background: $dark;
+        color: $light;
+        display: none;
+        padding: 24px 1rem;
+        line-height: 2;
+        font-size: 1rem; // 16px
+
+        @include media-breakpoint-up(md) {
+            padding: 34px 24px;
+        }
+
+        @include media-breakpoint-down(sm) {
+            font-size: 0.875rem;
+        }
+    }
+}
+footer.footer-top{
+    background-color: $white;
+   
+    background: linear-gradient(110deg, $secondary 0 59%, $white 41% 100%);
+    }
+    .workman-bookbtn {
+        padding-top: 50px;
+    }
+footer.footer-middle{
+    background: $primary;
+    color: $white;
+    
+    .quickContact_btn {
+        transform: skewX(-19deg);
+
+        .quickContact_btnInner {
+            transform: skewX(19deg);
+            font-weight: 800;
+            padding: 15px 12px;
+            color: $white;
+            font-size: 21px;
+}
+
+    }
+    .quickContact_btn.bg-black {
+        background: black;
+    }
+    
+}
+section.form {
+   padding-top: 150px;
+    .container {
+        padding: 50px 16px 34.58px 16px;
+
+        @include media-breakpoint-up(md) {
+            padding: 50px 34px 61px 34px;
+        }
+
+        .form_heroTitle {
+            font-weight: 900;
+            line-height: 0.889;
+            text-align: center;
+            font-size: 72px;
+            padding-bottom: 30px;
+
+            @include media-breakpoint-up(md) {
+                padding-bottom: 63px;
+                font-size: 53px;
+            }
+
+            @include media-breakpoint-up(lg) {
+                font-size: 67px;
+            }
+
+            @include media-breakpoint-up(xxl) {
+                font-size: 72px;
+            }
+        }
+
+        form {
+            label {
+                font-size: 16px;
+
+                @include media-breakpoint-up(md) {
+                    font-size: 20px;
+                }
+            }
+
+            input,
+            select {
+                color: $dark;
+                font-weight: 400;
+                font-family: $font-roboto;
+                min-height: 45px;
+                font-size: 12px;
+
+                @include media-breakpoint-up(md) {
+                    font-size: 18px;
+                    min-height: 71px;
+                }
+
+                &:focus {
+                    box-shadow: none;
+                    outline: none;
+                }
+                &::placeholder {
+                    color: gray;
+                }
+
+               
+            }
+
+        
+
+            button {
+                min-height: 68.54px;
+
+                @include media-breakpoint-up(md) {
+                    min-height: 61px;
+                }
+            }
+        }
+
+        .form_privacyInformation {
+            font-weight: 500;
+            font-size: 0.875rem;
+            color: gray;
+            line-height: 1;
+
+            @include media-breakpoint-down(sm) {
+                padding-bottom: 20.89px;
+            }
+        }
+    }
+}
+.footer_bottom {
+    padding-top: 77px;
+    padding-bottom: 50px;
+    color: gray;
+}
+.electrical-desc-sevices  {
+    text-align: initial;
+    font-size: 1.26rem;
+    line-height: 2.3;
+    color: gray;
+}
+.divider {
+    border: 1px solid #4F4F53;
+}
+@media screen and (max-width: 480px) {
+   .header-title{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 20px;
+    padding-bottom: 27px;
+    padding-right: 56px;
+    text-align: center;
+}
+.banner-heroheading {
+    font-size: 33px !important;
+    line-height: 1.2;
+    position: relative;
+    padding-right: 20px;
+    bottom: 124px;
+    text-align: center
+}
+.banner-subheading {
+    font-size: 19px!important;
+    position: relative;
+    bottom: 138px;
+    text-align: center
+}
+.banner-subheading-2 {
+    font-size: 18px!important;
+    position: relative;
+    text-align: center;
+    bottom: 177px;    
+}
+.meter-banner {
+    background: url(../images/lib/banner.png);
+    // margin-top: -161px;
+}
+.banner-subheading-3 {
+    margin-top: -177px;
+    padding-bottom: 65px;
+    text-align: center;
+    font-size: 13px!important;
+}
+header .faq-btn{
+    padding: 11px 17px!important;
+    font-size: 12px;
+    color: #fff;
+  
+}
+
+section#form {
+    padding: 20px;
+}
+.form_heroTitle {
+    line-height: 1.1!important;
+    font-size: 34px!important;
+ 
+}
+.footer_bottom {
+    font-size: 14px;
+}
+.quickContact_btnInner {
+    font-size: 14px!important;
+}
+.f-mid-title-mb {
+    font-size: 37px!important;
+    padding-left: 38px!important;
+    padding-right: 34px!important;
+}
+.footer-top-mb {
+    background: gray;
+}
+.f-top-title-mb {
+    font-size: 40px!important;
+    text-align: center;
+}
+.workman-bookbtn {
+    position: relative;
+    bottom: 86px;
+}
+.footer-brands{
+    background-color: $white;
+    padding: 25px;
+}
+.Certified-title-mb {
+    font-size: 26px!important;
+}
+.levels-heroheading {
+    position: relative;
+    font-size: 24px!important;
+    right: 24px;
+}
+.electrician-plan-list {
+    font-size: 19px!important;
+    position: relative;
+    right: 40px;
+    width: 331px;
+}
+.levels-heroheading.level-heading-mb {
+    position: relative;
+    font-size: 24px !important;
+    left: 13px;
+    line-height: 1.4!important;
+}
+section.cta-1 .cta-wrapper .levels-subheading {
+    padding-left: 21px;
+    padding-right: 49px;
+}
+.electrical-desc-sevices {
+    font-size: 14px;
+  
+}
+.electrical-service-description {
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+.Herotitle {
+    font-size: 28px!important;
+    text-align: end!important;
+}
+.electrical-service .tick {
+    text-align: initial!important;
+    position: relative;
+    top: 51px;
+    left: 43px;
+}
+ .same-day-sevice {
+  
+    padding-left: 0px!important;
+    margin-left:11px
+}
+.quality-guarantee {
+     padding: 0!important ; 
+     
+}
+.quality-material-btn {
+    padding-top: 11px!important;
+    padding-bottom: 12px!important;
+    padding-left: 14px!important;
+    padding-right: 15px!important;
+    margin-top: 24px!important;
+    font-size: 13px!important;
+    margin-left: 4px!important;
+    margin-bottom: 30px;
+}
+.service-btn {
+    margin-top: 19px !important;
+    margin-left: 6px !important;
+    padding: 11px 12px !important;
+    text-transform: capitalize!important;
+    font-size: 12px!important;
+}
+.booking-btn {
+    text-transform: capitalize!important;
+    margin-top: 20px!important;
+    margin-left: 11px!important;
+    padding: 11px 12px!important;
+    font-size: 12px!important;
+}
+.more-info {
+    padding-bottom: 27px!important;
+    text-align: center!important;
+}
+.call-btn {
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+.tel-btn{
+    position: relative;
+    top: 10px;
+    right: 10px;
+
+}
+}
