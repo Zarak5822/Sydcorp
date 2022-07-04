@@ -30,24 +30,23 @@
 	<header>
 		<div class="header-top-bar bg-white">
 			<div class="container-fluid py-3">
-				<div
-					class="row no-gutters justify-content-center align-items-center justify-content-between text-center">
+				<div class="row no-gutters justify-content-center align-items-center justify-content-md-between px-">
 					<div class="col-md-2">
 						<a href="./">
 							<img src="images/logo/sydcrop-logo.png" alt="Logo">
 						</a>
 					</div>
-					<div class="col-md-6 px-3 d-none d-md-block d-xxl-block ">
+					<div class="col-md-5 px-3 d-none d-md-block d-xxl-block ">
 						<a href="#section-about" class="btn btn-block text-white py-3 py-lg-0">
 							<a href="./">
 								<img src="images/logo/brands-logo.png" alt="Logo">
 							</a>
 						</a>
 					</div>
-					<div class=" col-md-4">
+					<div class="col-md-5">
 						<div class="row no-gutters justify-content-center ">
 							<div class="col-12 col-md-auto col-lg-auto col-xl-auto">
-								<a href=""
+								<a href="#form"
 									class="btn btn-block btn-secondary rounded-0 text-white py-3 fw-800 h11 line-height-1">
 									Book Online & Save $80
 								</a>
@@ -68,14 +67,61 @@
 					</div>
 				</div>
 				<div class="row no-gutters">
-					<div class="col-md-12 col-12">
-						<div class="mb-header d-block d-md-none d-xxl-none text-center py-4">
-							<a href="./">
-								<img src="images/icons/header-brand.png" alt="Logo">
-							</a>
+					 <!--Carousel Wrapper-->
+		  <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+		
+			<!--Controls-->
+			<div class="controls-top">
+			  <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+			  <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+																					  class="fas fa-chevron-right"></i></a>
+			</div>
+			<!--/.Controls-->
+		
+			<!--Indicators-->
+			<!-- <ol class="carousel-indicators">
+			  <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+			  <li data-target="#multi-item-example" data-slide-to="1"></li>
+			  <li data-target="#multi-item-example" data-slide-to="2"></li>
+		
+			</ol> -->
+			<!--/.Indicators-->
+		
+			<!--Slides-->
+			<div class="carousel-inner" role="listbox">
+		
+			  <!--First slide-->
+			  <div class="carousel-item active">
+		
+				<div class="col-md-4">
+					<div class="hero_img">
+						<img src="./images/icons/header-brand.png" alt=""></div>
 						</div>
-					</div>
+	
+		
+			  </div>
+			  <!--/.First slide-->
+		
+			  <!--Second slide-->
+			  <div class="carousel-item">
+			      		<div class="col-md-4">
+							<div class="hero_img">
+								<img src="./images/lib/brand-footer.png" alt=""></div>
+								</div>
+			
+			  </div>
+			  <div class="carousel-item">
+			      		<div class="col-md-4">
+				
+							<div class="hero_img">
+								<img src="./images/lib/brand-footer1.png" alt=""></div>
+								</div>
+	
 				</div>
+		
+			  </div>
+			</div>
+			</div>
 			</div>
 			<div class="header-top-bar-2">
 				<div class="container">
@@ -160,12 +206,16 @@
 				</div>
 				<div class="col-md-auto col-3">
 					<div class="faq-btn">
-						Faqs
+						<a href="#faqs">
+							Faqs
+						</a>
 					</div>
 				</div>
 				<div class="col-md-auto col-3">
 					<div class="service-btn">
+						<a href="#service">
 						Services
+						</a>
 					</div>
 				</div>
 				<div class="col-md-auto col-6">
@@ -189,7 +239,7 @@
 			</div>
 		</div>
 	</div>
-	<section class="services mb-3">
+	<section class="services mb-3" id="service">
 		<div class="container">
 			<div class="row no-gutters justify-content-center text-center align-items-center">
 				<div class="col-md-auto col-12">
@@ -285,14 +335,13 @@
 			<div class="row no-gutters justify-content-center text-center justify-content-between">
 				<div class="col-12 col-md-6 col-lg-5">
 					<div class="electrical-service">
-						<div class="row">
-							<div class=" col-md-6">
+						<div class="row no-gutters">
+							<div class="col-md-6">
 								<div class="tick">
 									<img src="images/lib/tick.png" alt="">
 								</div>
 							</div>
 							<div class=" col-md-6 Herotitle  ">
-								<!-- <img src="images/lib/tick.png" alt=""> -->
 								Level 2 electrical<br> services Sydcorp provide:
 							</div>
 						</div>
@@ -338,12 +387,18 @@
 					<div class="col-md-12 col-12 col-lg-12">
 						<div class="row">
 							<div class="col-md-5">
-								<img src="images/lib/cta-1.png" alt="">
+								<img class="d-none d-md-block" src="images/lib/cta-1.png" alt="">
+								<img class="d-md-none w-100" src="images/lib/cta-1-sm.png" alt="">
 							</div>
 							<div class="col-md-7">
 								<div class="levels-heroheading level-heading-mb">
 									What's the difference<br> between Level 1 ASP &amp;<br> Level 2 ASP Electricians?
 								</div>
+								<div class="horizantal-divider1"></div>
+								<div class="electrician-plan fw-700 h10 text-white py-3">
+									Both level 1 & level 2 electricians must be certified in their field & complete safety training.
+								</div>
+								<div class="horizantal-divider1"></div>
 								<div class="levels-subheading pb-2">
 									Level 1 electricians are permitted to connect residential and commercial properties
 									to the electricity network. They can extend network capacity as well as perform
@@ -370,7 +425,14 @@
 				<div class="row no-gutters justify-content-center">
 					<div class="col-md-12 col-12 col-lg-12">
 						<div class="row">
+							<div class="col-md-auto d-md-none d-blck">
+								<div class="electrician-planing text-center">
+									<img src="images/lib/cta-2-sm.png" alt="">
+								</div>
+							</div>
+
 							<div class="col-md py-6 px-6">
+								
 								<div class="levels-heroheading ">
 									You would need a level 2 electrician if you are planning to:
 								</div>
@@ -394,7 +456,7 @@
 
 								</div>
 							</div>
-							<div class="col-md-auto">
+							<div class="col-md-auto d-none">
 								<div class="electrician-planing text-center">
 									<img src="images/lib/cta-2.png" alt="">
 								</div>
